@@ -1,0 +1,100 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#4caf50"
+    android:layout_width="match_parent"
+    android:weightSum="1"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainscreen"
+        android:gravity="center"
+        android:layout_weight="0.4"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CYURIUS"
+            android:textSize="35sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:text="⇦ ⇦ SWIPE ⇨ ⇨ \n"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#ffffff"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainscreen"
+        android:id="@+id/ll"
+        android:gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_weight="0.4">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/section_label"
+            android:text="MARS INC."
+            android:textSize="35sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/marslogo"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

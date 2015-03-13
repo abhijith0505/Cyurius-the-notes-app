@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#03A9F4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:theme="@style/AppTheme"
+        android:focusable="false"
+        android:text="SEMESTER"
+        android:textStyle="bold"
+        android:layout_weight="1.0"
+        style="@style/Base.TextAppearance.AppCompat.Display1" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:topLeftRadius="15dp"
+        android:topRightRadius="15dp"
+        android:layout_weight="0.2">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button1"
+
+            android:textColor="#000000"
+            android:text="@string/sem1"
+            android:textSize="@dimen/sem_button_text_size"
+            android:id="@+id/button1"
+            android:layout_weight="0.5"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button2"
+            android:textColor="#000000"
+            android:text="@string/sem2"
+            android:textSize="@dimen/sem_button_text_size"
+            android:id="@+id/button2"
+            android:layout_weight="0.5"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:textColor="#000000"
+            android:text="@string/sem3"
+            android:textSize="@dimen/sem_button_text_size"
+            android:id="@+id/button3"
+            android:layout_weight="0.5"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:textColor="#000000"
+            android:text="@string/sem4"
+            android:textSize="@dimen/sem_button_text_size"
+            android:id="@+id/button4"
+            android:layout_weight="0.5"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:textColor="#000000"
+            android:text="@string/sem5"
+            android:textSize="@dimen/sem_button_text_size"
+            android:id="@+id/button5"
+            android:layout_weight="0.5"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"/>
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:textColor="#000000"
+            android:text="@string/sem6"
+            android:textSize="@dimen/sem_button_text_size"
+            android:id="@+id/button6"
+            android:layout_weight="0.5"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button7"
+            android:textColor="#000000"
+            android:text="@string/sem7"
+            android:textSize="@dimen/sem_button_text_size"
+            android:id="@+id/button7"
+            android:layout_weight="0.5"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/button8"
+            android:textColor="#000000"
+            android:text="@string/sem8"
+            android:textSize="@dimen/sem_button_text_size"
+            android:id="@+id/button8"
+            android:layout_weight="0.5"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mars.devlabs.cyurius" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="mars.devlabs.cyurius.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mars.devlabs.cyurius.SubjectTab"
+            android:label="@string/title_activity_subject_tab"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="mars.devlabs.cyurius.SubjectTab" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mars.devlabs.cyurius.MainActivity" />
+        </activity>
+        <activity
+            android:name="mars.devlabs.cyurius.NotesTab"
+            android:label="@string/title_activity_notes_tab"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="mars.devlabs.cyurius.NotesTab" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mars.devlabs.cyurius.SubjectTab" />
+        </activity>
+
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+</manifest>
